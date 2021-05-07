@@ -26,6 +26,66 @@ body {
 }
 
 .container {
+  padding: 30px 50px;
+}
+
+/**************  
+Header
+**************/
+.header img {
+  width: 150px;
+}
+
+/**************  
+Section
+**************/
+/* Left Container */
+.left-container img{
+  width: 370px;
+  margin: 60px 0;
+}
+
+/* Right Container */
+.right-container {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.right-container h1 {
+  font-size: 1.7em;
+}
+
+.right-container p {
+  margin: 30px 0;
+}
+
+.details button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color:hsl(257, 40%, 49%);
+  cursor: pointer;
+  border: none;
+  padding: 12px 100px;
+  border-radius: 40px;
+  box-shadow:5px 8px 15px rgba(0, 0, 0, 0.37);
+}
+
+.details button:hover {
+  background:hsl(300, 69%, 71%);
+  color: #fff;
+}
+
+
+
+/**************
+Media Query:  
+Desktop 
+**************/
+@media (min-width: 1440px) {
+  
+.container {
   padding: 50px 50px;
 }
 
@@ -82,6 +142,8 @@ DETAILS SECTION
   background:hsl(300, 69%, 71%);
   color: #fff;
 }
+}
+
 
 
 
