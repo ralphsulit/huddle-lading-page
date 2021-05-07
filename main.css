@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/**************  
+COlORS
+**************/
+.violet {
+  color: hsl(257, 40%, 49%);
+}
+
+.magenta {
+  color: hsl(300, 69%, 71%);
+}
+
+
+body {
+  color: #fff;
+  height: 100vh;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background-color:hsl(257, 40%, 49%);
+  margin: 20px 48px;
+}
+
+section {
+  display: flex;
+
+}
+
+.left-container img {
+  width: 100%;
+}
+
+.details {
+
+}
+
+
