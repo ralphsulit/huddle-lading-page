@@ -113,17 +113,6 @@ footer {
   color:hsl(300, 69%, 71%);
 }
 
-.attribution { 
-  margin-top: 30px;
-  font-size: 11px; 
-  text-align: center; 
-}
-
-.attribution a { 
-  color: #000;
-  text-decoration: none;
-}
-
 /**************
 Media Query:  
 Tablets
@@ -156,64 +145,80 @@ Media Query:
 Desktop 
 **************/
 @media (min-width: 1440px) {
+
+  /**************  
+  Header
+  **************/
+  .header img {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  /**************  
+  SECTION
+  **************/
+  .container {
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-container img {
+    width: 720px;
+    height: 500px;
+  }
+
+
+  /**************  
+  DETAILS SECTION
+  **************/
+  .details {
+    width: 600px;
+    padding: 100px 60px
+  }
+
+  .details h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .details p {
+    width: 500px;
+    margin-bottom: 40px;
+  }
+
+  .details button {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:hsl(257, 40%, 49%);
+    cursor: pointer;
+    border: none;
+    padding: 16px 80px;
+    border-radius: 40px;
+    box-shadow:5px 8px 15px rgba(0, 0, 0, 0.37);
+  }
+
+  .details button:hover {
+    background:hsl(300, 69%, 71%);
+    color: #fff;
+  }
+
   
-.container {
-  padding: 50px 50px;
-}
-
 /**************  
-Header
+Footer
 **************/
-.header {
-
-}
-
-/**************  
-SECTION
-**************/
-section {
+.icon {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
-/* .left-container img {
-} */
 
-
-/**************  
-DETAILS SECTION
-**************/
-.details {
-  width: 600px;
-  padding: 100px 60px
-}
-
-.details h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.details p {
-  width: 500px;
-  margin-bottom: 40px;
-}
-
-.details button {
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  color:hsl(257, 40%, 49%);
-  cursor: pointer;
-  border: none;
-  padding: 16px 80px;
-  border-radius: 40px;
-  box-shadow:5px 8px 15px rgba(0, 0, 0, 0.37);
-}
-
-.details button:hover {
-  background:hsl(300, 69%, 71%);
-  color: #fff;
-}
 }
 
 
